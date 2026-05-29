@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✦ Desafío Web: Fibonacci y Primos ✦</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="burbuja-decorativa uno"></div>
+    <div class="burbuja-decorativa dos"></div>
+
+    <header class="header">
+        <span class="icono-decorativo">✦ 🪐 ✦</span>
+        <h1>Matemáticas que resuelven problemas</h1>
+        <p class="subtitulo">Fibonacci y Números Primos en la vida real</p>
+        <div class="divisor-bonito"></div>
+        <p class="estudiante">Estudiante: <span>Wendy Fiorella Apaza</span></p>
+    </header>
+
+    <main class="container">
+        <section class="seccion card-intro">
+            <h2><span class="emoji">✨</span> Contexto del problema</h2>
+            <p>Muchos problemas reales pueden analizarse usando patrones matemáticos. Este proyecto aplica estas secuencias mágicas para resolver problemas de <strong>seguridad informática</strong> y <strong>planificación de ahorros</strong> de forma estratégica.</p>
+        </section>
+
+        <section class="seccion grid-explicacion">
+            <div class="sub-card">
+                <h3><span class="emoji">🌸</span> Secuencia de Fibonacci</h3>
+                <p>Es una sucesión donde cada número se obtiene sumando los dos anteriores. Se proyecta de forma armónica para calcular crecimientos orgánicos y escalonados.</p>
+            </div>
+            <div class="sub-card">
+                <h3><span class="emoji">💎</span> Números Primos</h3>
+                <p>Un número es primo si solo se puede dividir exactamente entre 1 y sí mismo. En el mundo digital, son las joyas místicas que estructuran y validan la seguridad criptográfica.</p>
+            </div>
+        </section>
+
+        <section class="seccion interactiva">
+            <h2><span class="emoji">🔮</span> Herramienta de Cálculo</h2>
+            <form id="formularioMatematico">
+                <div class="grupo-form">
+                    <label for="selectorProblema">Selecciona el problema a resolver:</label>
+                    <div class="select-wrapper">
+                        <select id="selectorProblema">
+                            <option value="primo">✨ 1. Números primos en seguridad (Verificar código)</option>
+                            <option value="fibo">🌱 2. Fibonacci en ahorro progresivo</option>
+                            <option value="combinado">🌌 3. Fibonacci y primos combinados</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grupo-form">
+                    <label id="labelDato" for="inputDato">Ingresa el código numérico a verificar:</label>
+                    <input type="number" id="inputDato" min="1" required placeholder="Ej. 17">
+                </div>
+
+                <button type="submit" id="btnEjecutar" class="btn">Calcular & Verificar ✦</button>
+            </form>
+
+            <div id="areaResultado" class="resultado oculto"></div>
+        </section>
+
+        <section class="seccion conclusion">
+            <h2><span class="emoji">🕊️</span> Conclusión</h2>
+            <p>La matemática no solo es lógica, también es arte. <strong>Fibonacci</strong> nos permite proyectar el futuro con un crecimiento escalonado y sutil, mientras que los <strong>números primos</strong> actúan como un escudo elegante y seguro para proteger nuestra información más valiosa.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h3>Enlaces del Proyecto</h3>
+        <div class="divisor-bonito"></div>
+        <a id="linkRepo" href="" target="_blank">✨ Ver Repositorio Git ✨</a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
